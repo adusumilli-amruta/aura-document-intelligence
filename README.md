@@ -4,7 +4,7 @@ A premium, open-source Retrieval-Augmented Generation (RAG) system with a stunni
 
 Aura allows you to drop any document (PDF, DOCX, TXT, etc.) into a folder, and it will instantly process, chunk, and embed the content. You can then use the breathtaking web interface to perform hybrid searches or generate flashcards to study your own documents.
 
-## ✨ Features
+## Features
 
 - **Beautiful Next.js Interface**: Premium UI featuring glassmorphism, dynamic video backgrounds, and 3D flipping flashcards powered by Tailwind CSS.
 - **Hybrid Search Engine**: Combines semantic similarity (Qdrant), BM25 keyword search, and exact matching with Reciprocal Rank Fusion (RRF) for unparalleled accuracy.
@@ -13,7 +13,7 @@ Aura allows you to drop any document (PDF, DOCX, TXT, etc.) into a folder, and i
 - **Study Mode**: Automatically generates random 3D flashcards from your ingested documents to help you learn and memorize your own data.
 - **Embedded Vector Database**: Uses Qdrant in local file-path mode. No Docker or external servers required!
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 Aura/
@@ -35,7 +35,7 @@ Aura/
 └── watchservice/           # Folder Watchdog Service
 ```
 
-## 🚀 Quickstart Guide
+## Quickstart Guide
 
 Aura requires Python 3.10+ and Node.js 18+.
 
@@ -78,7 +78,7 @@ Visit **[http://localhost:3000](http://localhost:3000)** in your browser to expe
 
 ---
 
-## ⚙️ Configuration & API Reference
+## Configuration & API Reference
 
 Aura is highly configurable via environment variables or the `app/config.py` file.
 
@@ -92,5 +92,5 @@ Aura is highly configurable via environment variables or the `app/config.py` fil
 - `GET /flashcards` - Retrieve random document chunks for studying
 - `POST /watcher/start` - Begin watching local folders for changes
 
-## 📝 License
+## License
 This project is open-source and free to use for personal or educational purposes.
