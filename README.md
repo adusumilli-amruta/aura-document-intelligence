@@ -6,7 +6,7 @@ Aura allows you to drop any document (PDF, DOCX, TXT, etc.) into a folder, and i
 
 ## Features
 
-- **Beautiful Next.js Interface**: Premium UI featuring glassmorphism, dynamic video backgrounds, and 3D flipping flashcards powered by Tailwind CSS.
+- **Next.js Interface**: Premium UI featuring glassmorphism, dynamic video backgrounds, and 3D flipping flashcards powered by Tailwind CSS.
 - **Hybrid Search Engine**: Combines semantic similarity (Qdrant), BM25 keyword search, and exact matching with Reciprocal Rank Fusion (RRF) for unparalleled accuracy.
 - **Context Enriched Chunking**: Intelligent NLP document splitting that respects sentence boundaries and extracts named entities using `spaCy` and `NLTK`.
 - **Real-Time Folder Monitoring**: Automatically watches your local directories and instantly ingests new, modified, or deleted files.
